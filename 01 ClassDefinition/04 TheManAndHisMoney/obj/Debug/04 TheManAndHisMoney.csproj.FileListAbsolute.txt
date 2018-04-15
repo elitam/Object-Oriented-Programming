@@ -1,0 +1,7 @@
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\04 TheManAndHisMoney\bin\Debug\04 TheManAndHisMoney.exe.config
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\04 TheManAndHisMoney\bin\Debug\04 TheManAndHisMoney.exe
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\04 TheManAndHisMoney\bin\Debug\04 TheManAndHisMoney.pdb
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\04 TheManAndHisMoney\obj\Debug\04 TheManAndHisMoney.csprojResolveAssemblyReference.cache
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\04 TheManAndHisMoney\obj\Debug\04 TheManAndHisMoney.csproj.CoreCompileInputs.cache
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\04 TheManAndHisMoney\obj\Debug\04 TheManAndHisMoney.exe
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\04 TheManAndHisMoney\obj\Debug\04 TheManAndHisMoney.pdb

@@ -1,0 +1,7 @@
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\bin\Debug\03 TestClient.exe.config
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\bin\Debug\03 TestClient.exe
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\bin\Debug\03 TestClient.pdb
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.csprojResolveAssemblyReference.cache
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.csproj.CoreCompileInputs.cache
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.exe
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.pdb

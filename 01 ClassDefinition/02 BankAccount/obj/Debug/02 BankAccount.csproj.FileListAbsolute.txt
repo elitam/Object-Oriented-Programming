@@ -1,0 +1,6 @@
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\bin\Debug\02 BankAccount.exe.config
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\bin\Debug\02 BankAccount.exe
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\bin\Debug\02 BankAccount.pdb
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.csproj.CoreCompileInputs.cache
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.exe
+D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.pdb
