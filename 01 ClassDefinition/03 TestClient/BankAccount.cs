@@ -10,6 +10,7 @@ namespace _03_TestClient
     {
         private string id;
         private double balance;
+
         public BankAccount(string id)
         {
             this.id = id;

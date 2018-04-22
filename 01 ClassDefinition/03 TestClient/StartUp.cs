@@ -10,13 +10,11 @@ namespace _03_TestClient
     {
         static void Main(string[] args)
         {
-           
-            
-            var acc = new Dictionary<string, BankAccount>();
+
+            var accounts = new Dictionary<string, BankAccount>();
 
             while (true)
             {
-
                 var commandArgs = Console.ReadLine().Split().ToList();
                 var commandType = commandArgs[0];
                 if (commandType == "End")
@@ -25,88 +23,87 @@ namespace _03_TestClient
                 }
 
                 string thisId = commandArgs[1];
-              
-
 
                 switch (commandType)
                 {
 
                     case "Create":
-                        Create(acc, thisId);
+                        Create(accounts, thisId);
                         break;
                     case "Deposit":
-                        Deposit(acc, commandArgs, thisId);
+                        double depositAmount = double.Parse(commandArgs[2]);
+                        Deposit(accounts, depositAmount, thisId);
                         break;
                     case "Withdraw":
-                        Withdraw(acc, commandArgs, thisId);
+                        double withdrawAmount = double.Parse(commandArgs[2]);
+                        Withdraw(accounts, withdrawAmount, thisId);
                         break;
                     case "Print":
-                        Print(acc, thisId);
+                        Print(accounts, thisId);
                         break;
                     default:
                         break;
                 }
             }
         }
-
-        private static void Print(Dictionary<string, BankAccount> acc, string thisId)
+        private static void Create(Dictionary<string, BankAccount> accounts, string thisId)
         {
-            if (acc.ContainsKey(thisId))
-            {
-                Console.WriteLine($"Account ID{thisId}, balance {acc[thisId].Balance:f2}");
-            }
-            else
-            {
-                Console.WriteLine("Account does not exist");
-            }
-        }
-
-        private static void Withdraw(Dictionary<string, BankAccount> acc, List<string> commandArgs, string thisId)
-        {
-            double amoun2t = double.Parse(commandArgs[2]);
-
-            if (acc.ContainsKey(thisId) && acc[thisId].Balance >= amoun2t)
-            {
-                acc[thisId].Balance -= amoun2t;
-            }
-            else
-            {
-                if (acc.ContainsKey(thisId))
-                {
-                    Console.WriteLine("Insufficient balance");
-                }
-                else
-                {
-                    Console.WriteLine("Account does not exist");
-                }
-            }
-        }
-
-        private static void Deposit(Dictionary<string, BankAccount> acc, List<string> commandArgs, string thisId)
-        {
-            double amount = double.Parse(commandArgs[2]);
-
-            if (acc.ContainsKey(thisId))
-            {
-                acc[thisId].Balance += amount;
-            }
-            else
-            {
-                Console.WriteLine("Account does not exist");
-
-            }
-        }
-
-        private static void Create(Dictionary<string, BankAccount> acc, string thisId)
-        {
-            if (acc.ContainsKey(thisId))
+            if (accounts.ContainsKey(thisId))
             {
                 Console.WriteLine("Account already exist");
             }
             else
             {
-                acc.Add(thisId, new BankAccount(thisId));
+                accounts.Add(thisId, new BankAccount(thisId));
             }
         }
+
+        private static void Deposit(Dictionary<string, BankAccount> accounts, double amount, string thisId)
+        {
+
+            if (accounts.ContainsKey(thisId))
+            {
+                accounts[thisId].Balance += amount;
+            }
+            else
+            {
+                Console.WriteLine("Account does not exist");
+
+            }
+        }
+
+        private static void Withdraw(Dictionary<string, BankAccount> accounts, double amount, string thisId)
+        {
+            if (accounts.ContainsKey(thisId))
+            {
+                if (accounts[thisId].Balance >= amount)
+                {
+                    accounts[thisId].Balance -= amount;
+                }
+                else
+                {
+                    Console.WriteLine("Insufficient balance");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Account does not exist");
+            }
+        }
+
+        private static void Print(Dictionary<string, BankAccount> accounts, string thisId)
+        {
+            if (accounts.ContainsKey(thisId))
+            {
+                Console.WriteLine($"Account ID{thisId}, balance {accounts[thisId].Balance:f2}");
+            }
+            else
+            {
+                Console.WriteLine("Account does not exist");
+            }
+        }
+
+
+
     }
 }

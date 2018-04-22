@@ -4,3 +4,9 @@ D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\bin\Debug\02 B
 D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.csproj.CoreCompileInputs.cache
 D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.exe
 D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.pdb
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\02 BankAccount\bin\Debug\02 BankAccount.exe.config
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\02 BankAccount\bin\Debug\02 BankAccount.exe
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\02 BankAccount\bin\Debug\02 BankAccount.pdb
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.csproj.CoreCompileInputs.cache
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.exe
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\02 BankAccount\obj\Debug\02 BankAccount.pdb

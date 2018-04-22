@@ -5,3 +5,10 @@ D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 Te
 D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.csproj.CoreCompileInputs.cache
 D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.exe
 D:\_ELINA\_VISUAL STUDIO\03 OOP\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.pdb
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\03 TestClient\bin\Debug\03 TestClient.exe.config
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\03 TestClient\bin\Debug\03 TestClient.exe
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\03 TestClient\bin\Debug\03 TestClient.pdb
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.csprojResolveAssemblyReference.cache
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.csproj.CoreCompileInputs.cache
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.exe
+D:\Elina\_Soft Uni\03 Object Oriented Programming\01 ClassDefinition\03 TestClient\obj\Debug\03 TestClient.pdb

@@ -17,7 +17,7 @@ namespace _02_IntroduceYourself
             this.age = age;
         }
 
-        public String Name
+        public string Name
         {
             get { return name; }
             set { name = value; }

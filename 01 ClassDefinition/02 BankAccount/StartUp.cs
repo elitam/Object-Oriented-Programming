@@ -10,9 +10,7 @@ namespace _02_BankAccount
     {
         static void Main(string[] args)
         {
-            BankAccount acc = new BankAccount();
-            acc.ID = "BG48645156";
-            acc.Balance = 456.215;
+            BankAccount acc = new BankAccount("BG48645156", 545.4);
             acc.Withdraw(15);
             acc.Deposit(2);
             Console.WriteLine(acc.ToString());

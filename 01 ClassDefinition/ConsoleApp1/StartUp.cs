@@ -14,6 +14,7 @@ namespace _02_IntroduceYourself
             Person firstP = new Person("Gosho", 15 );
             Person secondP = new Person("Pesho", 17);
 
+            firstP.IntroduceYourself();
             Console.WriteLine($"I am {firstP.Name} and i'm {firstP.Age} years old and my friend {secondP.Name} is {secondP.Age} years old.");
         }
     }

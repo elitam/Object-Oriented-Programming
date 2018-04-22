@@ -11,6 +11,12 @@ namespace _02_BankAccount
         private string id;
         private double balance;
 
+        public BankAccount (string id, double balance)
+        {
+            this.id = id;
+            this.balance = balance;
+        }
+
         public string ID
         {
             get { return id; }

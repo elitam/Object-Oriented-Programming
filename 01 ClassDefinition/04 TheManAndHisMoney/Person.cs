@@ -10,12 +10,23 @@ namespace _04_TheManAndHisMoney
     {
         private string name;
         private int age;
-        private List<BankAccount> accounts;
+        private List<BankAccount> accounts = new List<BankAccount>();
 
         public Person(string name, int age)
         {
             this.name = name;
             this.age = age;
+            if (age > 100)
+            {
+                Console.WriteLine($"{name}, you will probably die in a few days, keep the money in your pants!");
+            }
+        }
+
+        public Person (string name, int age, List<BankAccount> accounts)
+        {
+            this.name = name;
+            this.age = age;
+            this.accounts = accounts;
         }
 
         public string Name
@@ -42,7 +53,10 @@ namespace _04_TheManAndHisMoney
             return accounts.Select(e => e.Balance).Sum();
         }
 
-            
-        
+        public void AddAccount(BankAccount newAccount)
+        {
+           accounts.Add(newAccount);
+        }
+
     }
 }

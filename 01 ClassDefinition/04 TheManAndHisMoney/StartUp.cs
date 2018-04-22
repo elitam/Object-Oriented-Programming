@@ -10,11 +10,12 @@ namespace _04_TheManAndHisMoney
     {
         static void Main(string[] args)
         {
-            Person gosho = new Person("Gosho", 14);
-            gosho.Accounts.Add(new BankAccount("BFG45645", 45.6));
-            gosho.Accounts.Add(new BankAccount("BGH45644", 100));
+            Person firstP = new Person("Gosho", 4444);
 
-            Console.WriteLine(gosho.GetBalance()); 
+            firstP.AddAccount(new BankAccount("BG454345", 50));
+            firstP.AddAccount(new BankAccount("BG456456", 54));
+
+            Console.WriteLine($"{firstP.Name}'s balance is: {firstP.GetBalance():f2} euro!"); 
         }
     }
 }
